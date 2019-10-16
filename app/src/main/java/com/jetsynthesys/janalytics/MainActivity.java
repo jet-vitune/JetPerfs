@@ -3,14 +3,12 @@ package com.jetsynthesys.janalytics;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.jetsynthesys.jetanalytics.JetAnalytics;
 //import com.jetsynthesys.jetanalytics.api.JetxCrypt;
