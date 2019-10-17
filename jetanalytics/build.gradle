@@ -2,14 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.jet-vitune'
 android {
-    signingConfigs {
-        config {
-            keyAlias 'simplylove'
-            keyPassword 'jetsynthesys123'
-            //storeFile file('simply_love_release.jks')
-            storePassword 'jetsynthesys123'
-        }
-    }
+
     compileSdkVersion 28
     defaultConfig {
         minSdkVersion 16
@@ -21,7 +14,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
