@@ -42,10 +42,8 @@
 # You can edit the include path and order by changing the proguardFiles
 # directive in build.gradle.
 #
--keep class com.jetsynthesys.** { *; }
--keepclassmembers class com.jetsynthesys.** { *; }
+-keep class com.jetsynthesys.jetanalytics.JetAnalytics** { *; }
 
--keepattributes InnerClasses
 -keep class com.android.volley.** {*;}
 -dontwarn com.android.volley.**
 
