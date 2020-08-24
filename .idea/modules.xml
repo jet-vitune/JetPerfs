@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JetAnalytics.iml" filepath="$PROJECT_DIR$/JetAnalytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JetPerfs.iml" filepath="$PROJECT_DIR$/JetPerfs.iml" group="JetPerfs" />
+      <module fileurl="file://$PROJECT_DIR$/app/JetPerfs-app.iml" filepath="$PROJECT_DIR$/app/JetPerfs-app.iml" group="JetPerfs/app" />
+      <module fileurl="file://$PROJECT_DIR$/jetanalytics/JetPerfs-jetanalytics.iml" filepath="$PROJECT_DIR$/jetanalytics/JetPerfs-jetanalytics.iml" group="JetPerfs/jetanalytics" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jetanalytics/jetanalytics.iml" filepath="$PROJECT_DIR$/jetanalytics/jetanalytics.iml" />
     </modules>
